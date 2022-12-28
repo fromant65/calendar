@@ -8,12 +8,15 @@
 
 .container {
   background-color: #1e1e1e;
-  padding: 15px;
+  padding: 30px;
   border-radius: 10px;
+  max-width: 300px;
+  margin: 100px auto;
 }
 
 .mes-acciones {
   display: flex;
+  margin: auto;
 }
 
 .aumentar-mes,
@@ -39,10 +42,31 @@
 .weekdays,
 .monthdays {
   display: grid;
-  grid-template-columns: repeat(7, 40px);
+  grid-template-columns: repeat(7, minmax(40px, 50px));
+}
+
+.day,
+.today {
+  user-select: none;
+}
+
+.day {
+  border-radius: 10px;
+}
+
+.day:hover {
+  background-color: #2e2e2e;
 }
 
 .today {
   background-color: #118822;
   border-radius: 10px;
+}
+
+.today:hover {
+  background-color: #44bb55;
+}
+
+.fecha-actual {
+  padding-top: 20px;
 }
