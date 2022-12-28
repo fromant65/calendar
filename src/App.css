@@ -1,0 +1,48 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  color: #fff;
+}
+
+.container {
+  background-color: #1e1e1e;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.mes-acciones {
+  display: flex;
+}
+
+.aumentar-mes,
+.mes,
+.disminuir-mes {
+  flex-grow: 1;
+  font-weight: bolder;
+  user-select: none;
+}
+
+.aumentar-mes:hover,
+.disminuir-mes:hover {
+  background-color: #3e3e3e;
+  border-radius: 10px;
+}
+
+.weekdays {
+  color: #33dd44;
+  font-weight: bold;
+  user-select: none;
+}
+
+.weekdays,
+.monthdays {
+  display: grid;
+  grid-template-columns: repeat(7, 40px);
+}
+
+.today {
+  background-color: #118822;
+  border-radius: 10px;
+}
