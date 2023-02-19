@@ -1,6 +1,6 @@
 # Bienvenido a Calendar
 
-Este proyectos es un calendario simple hecho en React
+Este proyecto es un calendario simple hecho en React
 
 # Como ejecutar el proyecto
 
